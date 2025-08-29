@@ -1,0 +1,16 @@
+{
+  "name": "credentials-dashboard",
+  "version": "1.0.0",
+  "description": "A comprehensive credentials management system",
+  "scripts": {
+    "start": "node start-servers.js",
+    "dev": "node start-servers.js",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "setup": "cd backend && npm run setup-email"
+  },
+  "keywords": ["credentials", "dashboard", "management", "authentication"],
+  "author": "",
+  "license": "MIT"
+}
